@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>simple_global_planner</name>
+  <version>1.0.0</version>
+  <description>The simple_global_planner package</description>
+
+  <maintainer email="groadpg@gmail.com">Ryodo Tanaka</maintainer>
+  <author>Ryodo Tanaka</author>
+  
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>costmap_2d</depend>
+  <depend>nav_core</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>base_local_planner</depend>
+  <depend>pluginlib</depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <nav_core plugin="${prefix}/bgp_plugin.xml"/>    
+  </export>
+</package>
