@@ -1,5 +1,8 @@
 # simple_global_planner
 This package provides the simplest global planner for move_base.  
+The planner will just bind start and goal points linearly.  
+Then, make a path by following parameter named resolution.  
+Whatever the goal point is on the obstacle or not, this planner DOES NOT CARE, and generates a path.
 
 ## Installation
 ### 1. Just put this package into your catkinized workspace by git clone.
