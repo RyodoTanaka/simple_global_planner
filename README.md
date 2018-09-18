@@ -27,7 +27,7 @@ The following setting is the example for move_base configuration.
 ```yaml
 base_global_planner: simple_global_planner/SimpleGlobalPlanner
 SimpleGlobalPlanner:
-resolution: 50
+  resolution: 50
 ```
 
 ## Parameter
